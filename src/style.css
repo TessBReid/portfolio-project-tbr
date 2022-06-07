@@ -1,12 +1,36 @@
+:root {
+  --primary-colour: #dbe6e2;
+  --secondary-colour: #073b3a;
+  --primary-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
 h1 {
-  font-size: 64px;
+  font-size: 96px;
+  font-family: "Libre Baskerville", serif;
 }
-
+h2 {
+  font-size: 24px;
+  color: #272142;
+}
 p {
-  color: orange;
+  font-size: 36px;
+
+  margin: 0;
+  color: #272142;
 }
 
-.icon i {
-  font-size: 50px;
-  color: green;
+.hero {
+  text-align: center;
+  padding: 160px;
+  background: var(--primary-colour);
+}
+
+.btn-brand {
+  background: var(--secondary-colour);
+  color: white;
+  padding: 15px 30px;
 }
