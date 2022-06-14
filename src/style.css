@@ -107,6 +107,16 @@ p {
   height: auto;
 }
 
+.contact-info a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 15px;
+  background-color: var(--primary-colour);
+  color: black;
+  border-radius: 15px;
+}
+
 @media (max-width: 900px) {
   .featured-project {
     text-align: center;
