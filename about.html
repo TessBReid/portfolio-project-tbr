@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="discription"
-      content="Tessa Bailey-Reid is a front-end developer based in Ontario Canada."
+      content="Tessa Bailey-Reid is a front-end developer based in Ontario Canada. The about page lets the viewer get to know Tessa on a more personal level."
     />
 
     <link
@@ -36,6 +36,33 @@
     <title>Tessa Bailey-Reid | About Page</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <div class="logo">
+          <a href="/">
+            <img
+              src="images/TRB Logo1.png"
+              class="logo d-none d-sm-block"
+              alt="Tessa Bailey-Reid logo"
+              title="TBR Logo"
+          /></a>
+        </div>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Tessa">About</a>
+          </li>
+          <li>
+            <a href="/projects.html" title="Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Tessa">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-header">
       <div class="row">
         <div class="col-lg-6">
@@ -47,12 +74,67 @@
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <a href="#" class="btn btn-brand mb-5">View All Projects</a>
+          <a href="/projects.html" class="btn btn-brand mb-5"
+            >View All Projects</a
+          >
         </div>
         <div class="col-lg-6">
           <img src="images/IMG_2305.jpeg" class="img-fluid" alt="" />
         </div>
       </div>
+    </div>
+    <div class="container mt-5">
+      <footer>
+        <div class="contact-box justify-content-between d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together.</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-brand mt-4"
+              title="Contact Tessa"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-4">
+          <a
+            href="mailto:rae.tbailey@gmail.com"
+            class="email-link"
+            title="Email Tessa"
+            >rae.tbailey@gmail.com</a
+          >
+        </div>
+        <div class="social-links mb-5 d-flex justify-content-center">
+          <a
+            href="https://www.linkedin.com/in/tessa-bailey-reid/"
+            target="blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="https://github.com/TessBReid"
+            target="blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <p class="text-center text-muted">
+          This website is coded by Tessa Bailey-Reid and is
+          <a
+            href="https://github.com/TessBReid/portfolio-project-tbr"
+            target="blank"
+            title="Link to GitHub project"
+          >
+            open sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
