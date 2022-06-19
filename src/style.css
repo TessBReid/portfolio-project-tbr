@@ -142,6 +142,7 @@ nav li.active a {
   border-radius: 10px;
   width: 560px;
   height: auto;
+  size: 25px;
 }
 
 .content-header h3 a {
