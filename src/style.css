@@ -144,6 +144,11 @@ nav li.active a {
   height: auto;
 }
 
+.content-header h3 a {
+  color: black;
+  text-decoration: none;
+}
+
 .contact-info a {
   display: flex;
   text-decoration: none;
